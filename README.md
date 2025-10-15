@@ -1,8 +1,7 @@
-# REST API Learning Project
+# REST API Simple Project With React.
+This is my beginner-friendly full-stack application to practice REST API usage with React in the frontend and Node.js + Express in the backend.
 
-A beginner-friendly full-stack application to practice REST API usage with React (frontend) and Node.js + Express (backend).
-
-## 🎯 Learning Goals
+## Learning Goals
 
 This project demonstrates:
 - **REST API** - GET, POST, DELETE operations
@@ -11,80 +10,52 @@ This project demonstrates:
 - **API Integration** - Axios for HTTP requests
 - **Pagination** - Server-side pagination implementation
 
-## 📁 Project Structure
-
-```
-react-api-satesoft-trials/
-├── backend/               # Node.js + Express backend
-│   ├── server.js         # Main server file with all routes
-│   └── package.json      # Backend dependencies
-├── src/                  # React frontend
-│   ├── App.jsx          # Main app component (routing logic)
-│   ├── Login.jsx        # Login page component
-│   ├── Dashboard.jsx    # Main dashboard component
-│   ├── AddUser.jsx      # Form to add new users
-│   ├── UserList.jsx     # Display users with pagination
-│   └── api.js           # API utility with axios
-└── README.md
-```
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js latest version
+- npm
 
 ### Installation & Setup
 
-1. **Clone or navigate to the project directory:**
-   ```bash
-   cd react-api-satesoft-trials
+1. **Clone This Repo **
+   move to the directory with **cd react-api-satesoft-trials**
    ```
 
 2. **Install frontend dependencies:**
-   ```bash
    npm install
-   ```
 
 3. **Install backend dependencies:**
-   ```bash
    cd backend
    npm install
    cd ..
-   ```
 
 ### Running the Application
 
 You need to run **both** the backend and frontend servers:
 
 #### 1. Start the Backend Server (Terminal 1)
-
-```bash
 cd backend
 npm start
-```
 
-✅ Backend will run on **http://localhost:4000**
+Backend will run on **http://localhost:4000**
 
 #### 2. Start the Frontend React App (Terminal 2)
-
-```bash
 npm run dev
-```
 
-✅ Frontend will run on **http://localhost:5173**
+Frontend will run on **http://localhost:5173**
 
-### 🔐 How to Use
+### How to Use
 
 1. **Login:**
    - Open http://localhost:5173 in your browser
-   - Enter any username (e.g., "john", "admin", "test")
+   - Enter any username e.g., "Ofwono", "admin", "test"
    - Click "Login" to get a JWT token
    - Token is stored in localStorage
 
 2. **View Users:**
-   - Dashboard shows a list of users (5 per page)
+   - Dashboard shows a list of users 5 per page
    - Use "Previous" and "Next" buttons to navigate pages
 
 3. **Add User:**
@@ -92,13 +63,13 @@ npm run dev
    - Click "Add User" to create a new user via POST request
 
 4. **Delete User:**
-   - Click "🗑️ Delete" button next to any user
+   - Click "Delete" button next to any user
    - Confirm deletion in the popup
 
 5. **Logout:**
-   - Click "🚪 Logout" to clear token and return to login
+   - Click "Logout" to clear token and return to login
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Public Routes
 
@@ -140,7 +111,7 @@ npm run dev
 - Automatically add JWT token to requests
 - Handle errors globally (expired tokens)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React 18
@@ -153,28 +124,28 @@ npm run dev
 - jsonwebtoken (JWT authentication)
 - cors (cross-origin requests)
 
-## 📝 Notes for Learning
+## What am Learning
 
 - The backend uses an **in-memory array** for data storage (resets on restart)
 - In production, you'd use a real database (MongoDB, PostgreSQL, etc.)
 - JWT secret key should be stored in environment variables
 - This project uses simple inline styles for focus on functionality
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Problem:** Can't connect to backend
-- ✅ Make sure backend is running on port 4000
-- ✅ Check CORS is enabled in server.js
+- Make sure backend is running on port 4000
+- Check CORS is enabled in server.js
 
 **Problem:** Token expired error
-- ✅ Login again to get a new token
-- ✅ Tokens expire after 1 hour
+- Login again to get a new token
+- Tokens expire after 1 hour
 
 **Problem:** Port already in use
-- ✅ Kill the process using that port
-- ✅ Or change the port in server.js and api.js
+- Kill the process using that port
+- Or change the port in server.js and api.js
 
-## 🎓 Next Steps
+## Next Steps
 
 After mastering this project, try:
 - Adding UPDATE (PUT/PATCH) functionality
@@ -186,12 +157,4 @@ After mastering this project, try:
 
 ---
 
-**Happy Learning! 🚀**
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Happy Learning Together with Me!**
