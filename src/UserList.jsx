@@ -185,7 +185,7 @@ function UserList({ refreshTrigger }) {
     );
 }
 
-// ============ STYLES ============
+// Inline styling
 
 const styles = {
     container: {

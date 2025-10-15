@@ -122,7 +122,7 @@ function AddUser({ onUserAdded }) {
     );
 }
 
-// ============ STYLES ============
+// STYLES
 
 const styles = {
     container: {

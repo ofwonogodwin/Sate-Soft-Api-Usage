@@ -68,7 +68,7 @@ function Dashboard({ onLogout }) {
     );
 }
 
-// ============ STYLES ============
+// Styling
 
 const styles = {
     container: {
