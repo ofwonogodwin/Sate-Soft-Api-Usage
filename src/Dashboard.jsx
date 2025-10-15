@@ -41,7 +41,7 @@ function Dashboard({ onLogout }) {
             {/* Header with welcome message and logout button */}
             <header style={styles.header}>
                 <div>
-                    <h1 style={styles.title}>User Management Dashboard</h1>
+                    <h1 style={styles.title}>User Mgt Dashboard</h1>
                     <p style={styles.welcome}>Welcome, <strong>{username}</strong>!</p>
                 </div>
                 <button onClick={handleLogout} style={styles.logoutButton}>
