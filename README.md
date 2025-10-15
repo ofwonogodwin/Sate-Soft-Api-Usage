@@ -85,7 +85,7 @@ Frontend will run on **http://localhost:5173**
 | POST | `/users` | Create new user |
 | DELETE | `/users/:id` | Delete user by ID |
 
-## 🔑 Key Concepts Explained
+## Key Concepts Explained
 
 ### 1. **JWT Authentication**
 - Login gives you a token
