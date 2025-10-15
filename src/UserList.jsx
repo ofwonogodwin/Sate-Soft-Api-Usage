@@ -138,7 +138,7 @@ function UserList({ refreshTrigger }) {
                                             onClick={() => handleDelete(user.id)}
                                             style={styles.deleteButton}
                                         >
-                                            🗑️ Delete
+                                            Delete
                                         </button>
                                     </td>
                                 </tr>

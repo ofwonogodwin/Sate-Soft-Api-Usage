@@ -74,7 +74,7 @@ function AddUser({ onUserAdded }) {
 
     return (
         <div style={styles.container}>
-            <h2 style={styles.title}>➕ Add New User</h2>
+            <h2 style={styles.title}> Add New User</h2>
 
             <form onSubmit={handleSubmit} style={styles.form}>
                 {/* Name Input */}
